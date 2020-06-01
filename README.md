@@ -13,12 +13,7 @@ Website Link: https://uncover--ethanhorowitz.repl.co/
 Dashboard Link : https://public.tableau.com/profile/vaibhavi.gaekwad#!/vizhome/NASASpaceAppsCOVID-19Challenge/NASA-SpaceApps
 
 # Team: 
-Ethan Horowitz
-Rena Liu
-Nathan Pham
-Vaibhavi Gaekwad
-Mir Zayid Alam
-Ava Balacek
+Ethan Horowitz, Rena Liu, Nathan Pham, Vaibhavi Gaekwad, Mir Zayid Alam, Ava Balacek
 
 # Data and Resources
 https://projects.iq.harvard.edu/covid-pm
