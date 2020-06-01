@@ -5,7 +5,7 @@ A two day virtual hackathon organized by NASA across the globe. Objective is to 
 # unCOVer
 unCOVer and analyze COVID-19 data compared to air quality, population density, and more.
 
-#About
+# About
 Our project’s objectives were to monitor and track COVID-19 outbreaks, determine a relationship between environmental factors and pandemic spread, assess high-risk areas for the disease, and depict the data in an interactive, insightful and easily-accessible manner. We generated a website designed to visualize relationships between environmental factors (e.g. air pollution severity, temperature, population density, as well as other factors) and reported COVID-19 cases and fatalities within specific regions. Alongiwith that an interactive Tableau Dashboard was created to understand the air quality across the globe over the past few months of pandemic. During the creation of our final project, we used JavaScript, HTML, CSS, SQL, and Python as well as the data tool Tableau.
 
 Website Link: https://uncover--ethanhorowitz.repl.co/
