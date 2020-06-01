@@ -1,0 +1,13 @@
+{
+	"Confirmed Cases": "Confirmed",
+	"Deaths": "Deaths",
+	"Active Cases": "Active",
+	"Incident Rate": "Incident_Rate",
+	"People Hospitalized": "People_Hospitalized",
+	"Mortality Rate": "Mortality_Rate",
+	"Testing Rate": "Testing_Rate",
+	"Hospitalization Rate": "Hospitalization_Rate",
+	"Ground Temp [Night]": "nightTemp",
+	"Population Density": "population_density",
+	"Temp [Day]": "temperature"
+}

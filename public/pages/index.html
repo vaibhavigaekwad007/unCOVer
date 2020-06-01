@@ -1,0 +1,90 @@
+<html>
+<head>
+	<%- include('../partials/meta.html')%>
+
+	<link rel="stylesheet" href="/style.css" />
+	<link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" />
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<link rel="stylesheet" href="https://js.arcgis.com/4.15/esri/css/main.css">
+  	<script src="https://js.arcgis.com/4.15/"></script>	
+	<script src="/script.js" defer></script>
+	<script defer>
+		
+	</script>
+</head>
+<body>
+  
+	<div class="loader-container">
+		<div class="loader">
+			<div style="--i:1;"></div>
+			<div style="--i:2;"></div>
+			<div style="--i:3;"></div>
+			<div style="--i:4;"></div>
+			<div style="--i:5;"></div>
+			<div style="--i:6;"></div>
+			<div style="--i:7;"></div>
+			<div style="--i:8;"></div>
+		</div>
+	</div>
+	<svg>
+		<filter id="goo">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+			<feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10" />
+		</filter>
+	</svg>
+
+	<!-- Contains the map -->
+  	<div id="viewDiv"></div>
+	
+	<!-- things overlayed on the map -->
+	<div id="side-panel">
+		<h1>Compare</h1>
+		
+		<select onchange="changeComp(this.value, 1)">
+			<option>Confirmed Cases</option>
+			<option>Deaths</option>
+			<option>Active Cases</option>
+			<option>Incident Rate</option>
+			<option>People Hospitalized</option>
+			<option>Mortality Rate</option>
+			<option>Testing Rate</option>
+			<option>Hospitalization Rate</option>
+		</select>
+	
+		<select onchange="changeComp(this.value, 2)">
+			<option>CO</option>
+			<option>SO2</option>
+			<option>NO2</option>
+			<option>O3</option>
+			<option>PM10</option>
+			<option>PM25</option>
+			<option>Population Density</option>
+			<option>Temp [Day]</option>
+			<option>Ground Temp [Night]</option>
+		</select>
+
+		<p id="legend">
+			More <span style="color: red">red</span> → <span id="choice1"></span>
+			<br>
+			More <span style="color: blue">blue</span> → <span id="choice2"></span>
+			<br>
+			More <span style="color: purple">purple</span> → more of both
+			<br>
+			More black → not a lot of both
+		</p>
+		
+		<h1>Graphs</h1>
+		<div id="charts-container">
+		</div>
+		
+
+	</div>
+	<div id="question">
+		<a href="/about">
+			<i class="fas fa-question"></i>	
+		</a>
+	</div>
+	
+</body>
+</html>

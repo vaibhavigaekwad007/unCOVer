@@ -1,0 +1,63 @@
+<html>
+<head>
+	<%- include('../partials/meta.html')%>
+
+	<style>
+		html, body {
+			box-sizing: border-box;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+			height: 100%;
+			width: 100%;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+		}
+		::selection {
+			color: #fff;
+			background-color: silver;
+		}
+		*, *::before, *::after {
+			box-sizing: inherit;
+		}
+		main.app {
+			height: 100%;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background: url(https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png);
+			background-size: 400px 400px;
+			animation: move 10s infinite linear;
+			text-align: center;
+		}
+		h1 {
+			font-size: 4em;
+		}
+		a, a:visited {
+			color: dodgerblue;
+			text-decoration: none;
+			font-size: 2em;
+			transition: filter 0.2s ease;
+		}
+		a:hover {
+			filter: brightness(0.9);
+		}
+		@keyframes move {
+			from {
+				background-position: 0 0;
+			}
+    		to { 
+				background-position: -400px 0; 
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<main class="app">
+		<h1>Looks like you're lost.</h1>
+		<a href="/">Home</a>
+	</main>
+</body>
+</html>
