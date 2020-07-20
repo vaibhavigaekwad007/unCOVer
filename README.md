@@ -9,7 +9,7 @@ unCOVer and analyze COVID-19 data compared to air quality, population density, a
 Our project’s objectives were to monitor and track COVID-19 outbreaks, determine a relationship between environmental factors and pandemic spread, assess high-risk areas for the disease, and depict the data in an interactive, insightful and easily-accessible manner. We generated a website designed to visualize relationships between environmental factors (e.g. air pollution severity, temperature, population density, as well as other factors) and reported COVID-19 cases and fatalities within specific regions. Alongiwith that an interactive Tableau Dashboard was created to understand the air quality across the globe over the past few months of pandemic. During the creation of our final project, we used JavaScript, HTML, CSS, SQL, and Python as well as the data tool Tableau.
 
 Website Link: https://www.uncoverapp.co
-
+YouTube Video: https://www.youtube.com/watch?v=vL4PZhU2GNM&feature=youtu.be
 Dashboard Link : https://public.tableau.com/profile/vaibhavi.gaekwad#!/vizhome/NASASpaceAppsCOVID-19Challenge/NASA-SpaceApps
 
 # Team: 
